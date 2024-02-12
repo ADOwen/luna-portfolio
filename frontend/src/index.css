@@ -1,0 +1,35 @@
+:root {
+  --primary-color: rgb(23,19,63);
+  --bg-color: rgb(111,96,243);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  background: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+}
+
+.span_12 {
+  grid-column: span 12;
+}
+
+.span_6 {
+  grid-column: span 6;
+}

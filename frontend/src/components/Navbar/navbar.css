@@ -1,0 +1,18 @@
+nav {
+  grid-column: span 12;
+  align-items: center;
+  padding: 20px 40px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: var(--primary-color);
+}
+
+ul {
+  display: flex;
+  justify-content: end;}
+  
+
+a {
+  margin-left: 70px;
+  color: white;
+}
